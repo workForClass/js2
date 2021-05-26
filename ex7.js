@@ -1,7 +1,4 @@
-// 1. Declare and initialise an array with 5 names
-//  a) Use a for loop to loop through the array and log the array index and values
-
-// 2. Declare and initialise an array with 5 names and ages 
+// 1. Declare and initialise an array with 5 names and ages 
 //  a) 202,"Barbara", 31
 //  b) 203,"David", 22
 //  c) 204,"Alex", 35

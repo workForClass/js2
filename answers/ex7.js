@@ -1,14 +1,3 @@
-var students = ["Mary", "Barbara", "David", "Alex","Peter"];
-
-
-// Declare and initialise an array with 5 names and loop through them
-
-var students = ["Mary", "Barbara", "David", "Alex","Peter"];
-let arrLength = students.length;
-for (let i=0;i<arrLength;i++){
-   console.log (`Index: ${i} Value: ${students[i]}`);
-}
-
 // Declare and initialise an array with 5 names and ages 
 var students = [
    [201,"Mary", 40],

@@ -1,25 +1,4 @@
-// To log “Good Afternoon” to the console - use a named function 
 
-function greeting(){
-    console.log("Good Afternoon");
- }
- greeting();
-  
-
-// That takes the message as a parameter and logs the message to the console 
- function greeting(msg){
-    console.log(msg);
- }
- greeting("Good Morning");
- greeting("Good Afternoon");
- greeting("Good Day");
- 
- // That takes two number parameters and adds them. Use return to return the result. - Try fat arrow function
- function sum(num1,num2){
-    return (num1 + num2);
- }
- let result = sum(10,2);
- console.log(result);
   
  //That logs “The current date and time is “ - the current date and time  (Anonymous function)
  function displayDate(){
