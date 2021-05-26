@@ -1,3 +1,5 @@
+// the following code has errors, find them and fix them and use node to check it is working
+
 const morningGreetings = (name) => {
     console.log(`Good morning ${name}`); 
   }

@@ -1,3 +1,5 @@
+// the following code has errors, find them and fix them and use node to check it is working
+
 var inputArr = [8, 4, 2, 3, 5];
  
 let bubbleSort = (inputArray) => {

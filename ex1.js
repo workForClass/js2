@@ -1,3 +1,4 @@
+// the following code has errors, find them and fix them and use node to check it is working
 const count = 0;
             
             console("Starting Loop");
