@@ -24,3 +24,18 @@ var removedStudent = students.shift();
 console.log(students.toString());
 console.log(removedStudent);
 
+// first challenge
+for (i=0; i < students.length; i++) {
+  // as we loop through the students array, we loop through each nested student array item
+  for (j=0; j<students[i].length; j++) {
+    // we check each item in the nested students array until we find one that matches our id
+    if (students[i][j] === 205) {
+      // we check inside this nested student array item to find the position of the index of Sue
+      let position = students[i].indexOf("Sue");
+      // when we find the index and store it in position, we can now use it to target and change Sue to Susan
+      students[i][position] = "Susan";
+    }
+  }
+}
+
+console.log(students);

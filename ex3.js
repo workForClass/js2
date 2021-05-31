@@ -2,7 +2,7 @@
 
 function concatenate(first, last) {
     var full;
-    full = `${first} ${last}";
+    full = `${first} ${last}`;
    
   }
   getName(first, lastName) {
