@@ -1,27 +1,26 @@
+
 const morningGreetings = (name) => {
-    console.log(`Good morning ${name}`);
-}
-
-const eveningGreeting = function (name) {
-    console.log(`Good evening ${name}`);
-}
-
-const todaysGreeting = () => {
-    morningGreetings('Lisa');
-    console.log(`Thanks for all you have done during the day`);
-    eveningGreeting('Lisa');
-}
-
-todaysGreeting();
-
-function myCounter() {
+    console.log(`Good morning ${name}`); 
+  }
+  const toDo = function (taskName) {
+    console.log(`Today you should ${taskName}`);
+  }
+   
+  const todaysGreeting = () => {
+    morningGreetings('Lisa')
+    console.log(`Thanks for all you have done during yesterday`);
+    toDo('practice your JavaScript further.');
+  }
+   
+  todaysGreeting();
+   
+   function myCounter ()  {
     let count = 0
     return function () {
-        return ++count;
+       return ++count;
     }
-}
-const noOfTimes = myCounter();
-console.log(noOfTimes());
+  }
 
-
-
+  const noOfTimes = myCounter();
+  noOfTimes();
+  console.log(noOfTimes()); 
