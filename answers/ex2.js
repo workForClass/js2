@@ -1,4 +1,4 @@
-var inputArr = [8, 4, 2, 3, 5];
+var testingArray = [8, 4, 2, 3, 5];
  
 let bubbleSort = (inputArr) => {
    let len = inputArr.length;
@@ -14,4 +14,4 @@ let bubbleSort = (inputArr) => {
    return inputArr;
 };
  
-console.log(bubbleSort(inputArr));
+console.log(bubbleSort(testingArray));

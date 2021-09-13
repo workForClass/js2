@@ -1,6 +1,6 @@
 function concatenate(first, last) {
     var full;
-    full = `${first} ${last}`;
+    full = `My name is ${first} ${last} !`;
     return full;
   }
   function getName(firstName, lastName) {
