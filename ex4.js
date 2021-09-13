@@ -1,16 +1,25 @@
-// the following code has errors, find them and fix them and use node to check it is working
+// The todaysGreeting() function should run three console log greetings. 
+// The myCounter function should count and return how many times it has been run.
+
+// The output of the file when run should be:
+// Good morning Lisa
+// Thanks for all you have done during yesterday
+// Today you should practice your JavaScript further.
+// 2
+
+// The code has 6 errors, find them and fix them and use node to check it is working.
 
 const morningGreetings = (name) => {
     console.log(`Good morning ${name}`); 
   }
-  const eveningGreeting = function (firstName) {
-    console.log(`Good evening ${name}`);
+  const toDo = function (taskName) {
+    console.log(`Today you should ${name}`);
   }
    
   const todaysGreeting = () {
     morningGreetings('Lisa')
-    console.log(`Thanks for all you have done during the day`);
-    eveningGreeting('Lisa”);
+    console.log(`Thanks for all you have done during yesterday`);
+    toDo('practice your JavaScript further.");
   }
    
   todaysGreeting();
@@ -22,5 +31,6 @@ const morningGreetings = (name) => {
     }
   }
   const noOfTimes = myCounters();
-  console.log(noOfTimes(“am I meant to be here?”)); 
+  noOfTimes();
+  console.log(noOfTimes("is this string meant to be here?")); 
   
