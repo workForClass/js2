@@ -1,17 +1,11 @@
-// The following code takes a given name, runs a function to create a string and logs the name.
-// The output should be "My name is Zara Williams !" when run.
-// The code has 7 errors, find them and fix them and use node to check it is working.
-// Hint: check particularly for incorrect marks/syntax, mispelled functions, and that information is returned from a function if needed.
+// Write a function  ...
 
-function concatenate(first, last) {
-    var full;
-    full = `My name is ${first} ${last} !";
-   
-  }
-  getName(first, lastName) {
-    var result;
-    result = concate(firstName, lastName);
-    console.log(result );
-  }
-  secondFunction("Zara’, "Williams");
-  
+// 1. That logs “The current date and time is “ - the current date and time 
+// hint; you will need to research the Date object to get the current date! (https://www.w3schools.com/jsref/jsref_obj_date.asp)
+
+// 2. That prints “I’m ready” after 5 seconds.
+// hint: you will need to research the setTimeout JavaScript function. (https://www.w3schools.com/jsref/met_win_settimeout.asp)
+
+// 3. Create a function to convert today’s temperature from Celsius to Fahrenheit
+// a) Celsius to Fahrenheit: (°C × 9/5) + 32 = °F
+// b) Fahrenheit to Celsius: (°F − 32) x 5/9 = °C

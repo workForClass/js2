@@ -1,36 +1,7 @@
-// The todaysGreeting() function should run three console log greetings. 
-// The myCounter function should count and return how many times it has been run.
+// Use a for loop to ...
+// 1. Log numbers from 1 to 100 that are divisible by 5
 
-// The output of the file when run should be:
-// Good morning Lisa
-// Thanks for all you have done during yesterday
-// Today you should practice your JavaScript further.
-// 2
+// 2. Use a nested for loop to print “I’m the outer loop” 3 times and “I’m the inner loop” within the inner loop.
 
-// The code has 6 errors, find them and fix them and use node to check it is working.
 
-const morningGreetings = (name) => {
-    console.log(`Good morning ${name}`); 
-  }
-  const toDo = function (taskName) {
-    console.log(`Today you should ${name}`);
-  }
-   
-  const todaysGreeting = () {
-    morningGreetings('Lisa')
-    console.log(`Thanks for all you have done during yesterday`);
-    toDo('practice your JavaScript further.");
-  }
-   
-  todaysGreeting();
-   
-   function myCounter ()  {
-    let count = 0
-    return function () {
-       ++count;
-    }
-  }
-  const noOfTimes = myCounters();
-  noOfTimes();
-  console.log(noOfTimes("is this string meant to be here?")); 
-  
+

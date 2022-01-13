@@ -1,26 +1,17 @@
+// Log numbers from 1 to 100 that are divisible by 5
+for (let i=1;i<=100;i++){
+   if (i%5 == 0)
+   {
+       console.log(i);
+   }
+}
 
-const morningGreetings = (name) => {
-    console.log(`Good morning ${name}`); 
-  }
-  const toDo = function (taskName) {
-    console.log(`Today you should ${taskName}`);
-  }
-   
-  const todaysGreeting = () => {
-    morningGreetings('Lisa')
-    console.log(`Thanks for all you have done during yesterday`);
-    toDo('practice your JavaScript further.');
-  }
-   
-  todaysGreeting();
-   
-   function myCounter ()  {
-    let count = 0
-    return function () {
-       return ++count;
-    }
-  }
+// A nested for loop to print “I’m the outer loop” 3 times and “I’m the inner loop” within the inner loop.
+for(var i = 1; i <=3; i++) {
+ console.log("I'm the outer loop", i);
+ for(var j = 1; j <=3; j++) {
+   console.log("\tI'm the inner loop", j);
+ }
+}
 
-  const noOfTimes = myCounter();
-  noOfTimes();
-  console.log(noOfTimes()); 
+

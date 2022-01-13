@@ -1,27 +1,17 @@
-// the following code should reorder the array from lowest to highest
-// and its output when run should, if working, be [2,3,4,5,8] 
-// The code has three errors, find them and fix them and use node to check it is 
-// working.
+// The following code takes a given name, runs a function to create a string and logs the name.
+// The output should be "My name is Zara Williams !" when run.
+// The code has 7 errors, find them and fix them and use node to check it is working.
+// Hint: check particularly for incorrect marks/syntax, mispelled functions, and that information is returned from a function if needed.
 
-var testingArray = [8, 4, 2, 3, 5];
- 
-let bubbleSort = (inputArr) => {
-   let len = inputArray.length;
-   for (let i = 0; i < len; i++) {
-       for (let i = 0; j < len; j++) {
-           if (inputArr[j] > inputArr[j + 1]) {
-               let tmp = inputArr[j];
-               inputArr[j] = inputArr[j + 1];
-               inputArr[j + 1] = tmp;
-           }
-       }
-   }
-    
-
-
-};
- 
-console.log(bubbleSort(testingArray));
-
-// diagram for bubble sort for context if needed : https://www.productplan.com/uploads/bubble-sort-1024x683-2.png
-
+function concatenate(first, last) {
+    var full;
+    full = `My name is ${first} ${last} !";
+   
+  }
+  getName(first, lastName) {
+    var result;
+    result = concate(firstName, lastName);
+    console.log(result );
+  }
+  secondFunction("Zara’, "Williams");
+  
