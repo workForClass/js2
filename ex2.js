@@ -5,10 +5,10 @@
 
 function concatenate(first, last) {
     var full;
-    full = `My name is ${first} ${last} !";
+    full = `My name is ${first} ${last} !"; // single quotes should be given
    
   }
-  getName(first, lastName) {
+  getName(first, lastName) {       // function word is missing
     var result;
     result = concate(firstName, lastName);
     console.log(result );
