@@ -6,14 +6,14 @@
 // Current Count : 3
 // Current Count : 4
 // Loop stopped!
-// The following code has 4 errors, find them and fix them and use node to check the output.
-const count = 0; // const should be replaced by let.
+// The following code has 4 errors, find them and fix them and use node to check the output.let count = 0;
+            let count = 0;
             
-            console("Starting Loop"); // .log is missing after console
+            console.log("Starting Loop");
             do {
-               console.log("Current Count : " + count);
-               count--; // instead should be count++
-            }
-            
-            then (count < 5); // in place of then while loop should be written
-            console.log ("Loop stopped!);
+               console.log("Current Count :" + count);
+               count++;
+          
+            }while(count < 11);
+            console.log("Loop stopped!");
+         
